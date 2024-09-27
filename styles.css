@@ -1,0 +1,131 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #eaeaea; /* Light gray background */
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+header {
+    background: #007BFF; /* Bright blue background */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background: #007BFF;
+    color: white;
+}
+
+.footer-links, .footer-contact, .footer-social {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-links h3, .footer-contact h3, .footer-social h3 {
+    color: #FFD700; /* Gold color for headings */
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.footer-social a img {
+    width: 30px; /* Adjust size of social icons */
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background: #222;
+}
+
+
+button {
+    background-color: #007BFF; /* Bright blue button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+h2 {
+    color: #007BFF; /* Bright blue headings */
+}
